@@ -1,4 +1,4 @@
-/* get form input elements */
+/* get form input elements. */
 const form = document.querySelector("#form");
 const username = document.querySelector("#username");
 const firstName = document.querySelector("#firstName");
@@ -87,7 +87,7 @@ function funcsCaller() {
         error(email);
     }
 
-    /* call password function */
+    /* call password function  */
     if (passwordValidation(password.value, rePassword.value)) {
         success(password)
         success(rePassword)
